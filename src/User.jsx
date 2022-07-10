@@ -43,6 +43,7 @@ export default function User() {
     return (
         <div className="random-user-container">
             <form onSubmit={getUsers} className="buttons">
+                <h3 className="qtd">Quantity</h3>
                 <select onChange={getUserQuantity} name="user-quantity">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -56,6 +57,7 @@ export default function User() {
                     <option value="10">10</option>
                 </select>
 
+                <h3 className="gender">Gender</h3>
                 <select onChange={getGender} name="user-gender">
                     <option value="both">Both</option>
                     <option value="male">Male</option>

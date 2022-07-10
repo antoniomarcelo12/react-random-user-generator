@@ -11,6 +11,35 @@ body {
     
 }
 
+form .qtd {
+    position: absolute;
+    top: -40px;
+    color: #FFF;
+
+    font-size: 24px;
+}
+
+form .gender {
+    position: absolute;
+    top: -40px;
+    left: 150px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+}
+
+form select {
+    width: 50%;
+}
+
+form button {
+    margin: 5px 0 5px 0;
+}
+
 form.buttons {
     position: absolute;
 
@@ -37,6 +66,8 @@ form.buttons {
     overflow-y: hidden;
     
 }
+
+
 
 .users-scroll {
     display: flex;
